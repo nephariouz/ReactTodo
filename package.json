@@ -6,7 +6,7 @@
   "scripts": {
     "test": "karma start",
     "start": "node server.js",
-	"webpack": "webpack -w"
+    "webpack": "webpack -w"
   },
   "author": "Zach Bay",
   "license": "ISC",
@@ -40,6 +40,7 @@
     "karma-webpack": "^1.7.0",
     "mocha": "^2.4.5",
     "node-sass": "^3.4.2",
+    "node-uuid": "^1.4.7",
     "react-addons-test-utils": "^0.14.7",
     "sass-loader": "^3.1.2",
     "script-loader": "^0.6.1",
