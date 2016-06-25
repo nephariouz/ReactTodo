@@ -7,12 +7,12 @@ var $ = require('jQuery');
 var TodoApp = require('TodoApp');
 
 describe('TodoApp', () => {
-	it('should exist', () => {
-		expect(TodoApp).toExist();
-	});
+  it('should exist', () => {
+    expect(TodoApp).toExist();
+  });
 
-	it('should add todo to the todos state on handleAddTodo', () => {
-	  var todoText = 'test text';
+  it('should add todo to the todos state on handleAddTodo', () => {
+    var todoText = 'test text';
     var todoApp = TestUtils.renderIntoDocument(<TodoApp/>);
 
     todoApp.setState({todos: []});
