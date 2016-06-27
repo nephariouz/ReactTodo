@@ -6,7 +6,8 @@
   "scripts": {
     "test": "karma start",
     "start": "node server.js",
-    "webpack": "webpack -w"
+    "webpack": "webpack -w --colors",
+    "herokuPush": "git push heroku master"
   },
   "author": "Zach Bay",
   "license": "ISC",
